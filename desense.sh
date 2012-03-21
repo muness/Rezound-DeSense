@@ -34,7 +34,7 @@ reboot() {
 echo 'Before running this script:
  * Make a Nandroid backup
  * Install the Sense ROM of your choice (I jump around between BAMF, CleanROM and RezROM)
- * Install a launcher of your choice (I like Nova)
+ * Install a launcher and keyboard of your choice (I like Nova and SwiftKey X)
  * Connect the device to USB
 If you have not done any of these steps, Ctrl-c, do them and re-execute the script
 
