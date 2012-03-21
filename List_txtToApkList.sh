@@ -1,1 +1,0 @@
-cat List.txt | grep ".apk" | awk '{print $5}'

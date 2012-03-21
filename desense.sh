@@ -1,14 +1,14 @@
 #!/usr/bin/bash
 
-ADB="echo adb.exe"
+${ADB:="adb"}
+
+wait_for_adb() {
+  $ADB wait-for-device
+}
 
 remount() {
   $ADB remount
   $ADB shell busybox mount -o rw,remount /system
-}
-
-wait_for_adb() {
-  $ADB wait-for-device
 }
 
 remove_sense_apks() {
