@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-ADB="./adb.exe"
+ADB="echo adb.exe"
 
 remount() {
   $ADB remount
@@ -30,27 +30,6 @@ install_aosp_apks() {
 reboot() {
   $ADB reboot
 }
-
-echo 'Before running this script:
- * Make a Nandroid backup
- * Install the Sense ROM of your choice (I jump around between BAMF, CleanROM and RezROM)
- * Install a launcher and keyboard of your choice (I like Nova and SwiftKey X)
- * Connect the device to USB
-If you have not done any of these steps, Ctrl-c, do them and re-execute the script
-
-The script will:
-* move HTC and Verizon apks to /system/app/backup
-* install AOSP APKs for Browser, Calendar, Calculator, Email
-* Reboot
-
-Do NOT expect:
-* Stock status bar
-* Stock dialogs
-* Stock dialer or Phone or People app
-* Much of anything.
-'
-
-read -n 1 -p "Press any key to start de-sensing..."
 
 wait_for_adb
 remount
