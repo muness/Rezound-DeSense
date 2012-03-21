@@ -2,7 +2,8 @@
 
 * The awesome developers who provide the Sense ROMs that we can run this against.
 * Scott Crosler who provided me a list of apps to remove.
-* Quantumrabbit who maintains a list of APKs that are safe to remove at http://forum.xda-developers.com/showthread.php?t=1532366
+* danutzz for the original DeSense scripts at http://forum.xda-developers.com/showthread.php?t=1382630
+* Quantumrabbit who collected and maintains a list of APKs that are safe to remove at http://forum.xda-developers.com/showthread.php?t=1532366
 
 = What this does
 
@@ -50,4 +51,3 @@ If you have not done any of these steps do not use this script!
   * Probably won't work because first time setup files will be missing.
   * Would also require adding a launcher.
 
- 
