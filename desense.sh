@@ -11,12 +11,11 @@ wait_for_adb() {
   $ADB wait-for-device
 }
 
-move_sense_apks() {
-  $ADB mkdir /system/app/backup
+remove_sense_apks() {
   apks_to_remove=( $( cat apks_to_remove.txt ) )
   for i in $(seq 0 $((${#apks_to_remove[@]} - 1)))
   do
-    $ADB mv /system/app/${apks_to_remove[$i]} /system/app/backup
+    $ADB shell rm /system/app/${apks_to_remove[$i]}
   done
 }
 
@@ -55,6 +54,6 @@ read -n 1 -p "Press any key to start de-sensing..."
 
 wait_for_adb
 remount
-move_sense_apks
+remove_sense_apks
 install_aosp_apks
 reboot
