@@ -47,7 +47,7 @@ If you have not done any of these steps do not use this script!
 * Add HQ ICS Camera: http://forum.xda-developers.com/showthread.php?t=1533238
 * Replace Dialer, Phone and People with stock APKs
 * Make this script work on .zip files instead of a running phone
-** Probably won't work because first time setup files will be missing.
-** Would also require adding a launcher.
+  * Probably won't work because first time setup files will be missing.
+  * Would also require adding a launcher.
 
  
