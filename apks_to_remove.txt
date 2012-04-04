@@ -5,6 +5,7 @@ Blockbuster.apk
 BlueSky.apk
 BooksPhone.apk
 Burgundy.apk
+ChromeBookmarksSyncAdapter.apk
 com.htc.FriendStream3DWidget.apk
 com.htc.htcmsgwidgets3d.apk
 com.htc.idlescreen_SN.apk
@@ -74,6 +75,7 @@ HtcRingtoneWidget.apk
 HtcScreenBrightnessWidget.apk
 HtcScreenTimeoutWidget.apk
 htcsettingwidgets.apk
+HTCSetupWizard.apk
 HtcSoundRecorder.apk
 HtcSSOClient.apk
 HTCSync.apk
@@ -87,11 +89,11 @@ idlescreen_photo.apk
 idlescreen_shortcut.apk
 IdleScreen_Stock.apk
 IdleScreen_Weather.apk
+Install_flash_player.apk
 JETCET_PRINT.apk
 JETCET_PRINT_Resources.apk
 KeyChain.apk
 Kindle.apk
-LMW.apk
 LMW.apk
 Mode10Wallpapers.apk
 MyReportAgent.apk
@@ -119,6 +121,7 @@ Stk.apk
 Stock.apk
 Street.apk
 Talk.apk
+Talk2.apk
 talkback.apk
 TetheringGuard.apk
 TrimIt.apk
@@ -136,4 +139,3 @@ WeatherProvider.apk
 WeatherSyncProvider.apk
 WeatherVideo.apk
 WifiRouter.apk
-WorldClock.apk

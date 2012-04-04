@@ -9,6 +9,7 @@ adb.exe shell rm /system/app/Blockbuster.apk
 adb.exe shell rm /system/app/BlueSky.apk
 adb.exe shell rm /system/app/BooksPhone.apk
 adb.exe shell rm /system/app/Burgundy.apk
+adb.exe shell rm /system/app/ChromeBookmarksSyncAdapter.apk
 adb.exe shell rm /system/app/com.htc.FriendStream3DWidget.apk
 adb.exe shell rm /system/app/com.htc.htcmsgwidgets3d.apk
 adb.exe shell rm /system/app/com.htc.idlescreen_SN.apk
@@ -68,7 +69,6 @@ adb.exe shell rm /system/app/HTCMediaAutoUploadSetting.apk
 adb.exe shell rm /system/app/HtcMediaCacheService.apk
 adb.exe shell rm /system/app/HtcMIM.apk
 adb.exe shell rm /system/app/HtcMimWidget.apk
-adb.exe shell rm /system/app/HtcMimWidget.apk
 adb.exe shell rm /system/app/HtcPhotoWidget.apk
 adb.exe shell rm /system/app/HtcPowerSaverWidget.apk
 adb.exe shell rm /system/app/HtcPowerStripWidget.apk
@@ -79,6 +79,7 @@ adb.exe shell rm /system/app/HtcRingtoneWidget.apk
 adb.exe shell rm /system/app/HtcScreenBrightnessWidget.apk
 adb.exe shell rm /system/app/HtcScreenTimeoutWidget.apk
 adb.exe shell rm /system/app/htcsettingwidgets.apk
+adb.exe shell rm /system/app/HTCSetupWizard.apk
 adb.exe shell rm /system/app/HtcSoundRecorder.apk
 adb.exe shell rm /system/app/HtcSSOClient.apk
 adb.exe shell rm /system/app/HTCSync.apk
@@ -92,11 +93,11 @@ adb.exe shell rm /system/app/idlescreen_photo.apk
 adb.exe shell rm /system/app/idlescreen_shortcut.apk
 adb.exe shell rm /system/app/IdleScreen_Stock.apk
 adb.exe shell rm /system/app/IdleScreen_Weather.apk
+adb.exe shell rm /system/app/Install_flash_player.apk
 adb.exe shell rm /system/app/JETCET_PRINT.apk
 adb.exe shell rm /system/app/JETCET_PRINT_Resources.apk
 adb.exe shell rm /system/app/KeyChain.apk
 adb.exe shell rm /system/app/Kindle.apk
-adb.exe shell rm /system/app/LMW.apk
 adb.exe shell rm /system/app/LMW.apk
 adb.exe shell rm /system/app/Mode10Wallpapers.apk
 adb.exe shell rm /system/app/MyReportAgent.apk
@@ -124,6 +125,7 @@ adb.exe shell rm /system/app/Stk.apk
 adb.exe shell rm /system/app/Stock.apk
 adb.exe shell rm /system/app/Street.apk
 adb.exe shell rm /system/app/Talk.apk
+adb.exe shell rm /system/app/Talk2.apk
 adb.exe shell rm /system/app/talkback.apk
 adb.exe shell rm /system/app/TetheringGuard.apk
 adb.exe shell rm /system/app/TrimIt.apk
@@ -141,7 +143,6 @@ adb.exe shell rm /system/app/WeatherProvider.apk
 adb.exe shell rm /system/app/WeatherSyncProvider.apk
 adb.exe shell rm /system/app/WeatherVideo.apk
 adb.exe shell rm /system/app/WifiRouter.apk
-adb.exe shell rm /system/app/WorldClock.apk
 adb.exe push stock_apks/Browser.apk /system/app/
 adb.exe push stock_apks/Calculator.apk /system/app/
 adb.exe push stock_apks/Calendar.apk /system/app/
