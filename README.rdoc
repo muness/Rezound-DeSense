@@ -7,16 +7,16 @@
 
 = What this does
 
-* Removes bloat, especially from HTC and Verizon
+* Removes bloat from HTC and Verizon on any Verizon Sense 3.6 or Sense 4.0 ROM.  (NB: only tested on the Rezound ROMs)
 * Install AOSP APKs for Browser, Calendar, Calculator, Email (see stock_aps directory)
 * Reboots the phone before FCs kick in
 
 = Before running this script
 
 * Make a Nandroid backup
-* Install the Sense ROM of your choice (I jump around between BAMF, CleanROM and RezROM)
-* Install a launcher and keyboard of your choice (I like Nova and SwiftKey X)
-* Connect the device to USB
+* Install the Sense ROM of your choice
+* Install a launcher and keyboard of your choice (I like Nova Launcher and SwiftKey)
+* Connect the device to USB and enable debug
 
 If you have not done any of these steps do not use this script!
 
@@ -43,10 +43,8 @@ If you have not done any of these steps do not use this script!
 * You need to wipe data from the Google Play Store app
 * There's still some HTC Sense stuff here.  e.g. Camera, Gallery, Personalize setting.
 
-= Ideas
+= Next Steps
 
-* Add HQ ICS Camera: http://forum.xda-developers.com/showthread.php?t=1533238
-* Replace Dialer, Phone and People with stock APKs
 * Make this script work on .zip files instead of a running phone
   * Probably won't work because first time setup files will be missing.
   * Would also require adding a launcher.
