@@ -3,7 +3,7 @@
 * The awesome developers who provide the Sense ROMs that we can run this against.
 * Scott Crosler who provided me a list of apps to remove.
 * danutzz for the original DeSense scripts at http://forum.xda-developers.com/showthread.php?t=1382630
-* Quantumrabbit who collected and maintains a list of APKs that are safe to remove at http://forum.xda-developers.com/showthread.php?t=1532366
+* Quantumrabbit who collected and maintains a list of Sense 3.6 APKs that are safe to remove at http://forum.xda-developers.com/showthread.php?t=1532366
 
 = What this does
 
