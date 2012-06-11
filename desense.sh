@@ -1,6 +1,9 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 
-${ADB:="adb"}
+if [ -z "$ADB" ]
+then
+  ADB="adb"
+fi
 
 wait_for_adb() {
   $ADB wait-for-device
