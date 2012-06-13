@@ -210,7 +210,6 @@ adb.exe shell rm /system/app/NewBayService.apk
 adb.exe shell rm /system/app/NewBayService-market.apk
 adb.exe shell rm /system/app/nfshp-signed-1.0.13.apk
 adb.exe shell rm /system/app/NoiseField.apk
-adb.exe shell rm /system/app/PCSC.apk
 adb.exe shell rm /system/app/PDF_Viewer_F_A.apk
 adb.exe shell rm /system/app/PhaseBeam.apk
 adb.exe shell rm /system/app/Picasa_GLRplugin.apk
