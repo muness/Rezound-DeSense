@@ -1,6 +1,7 @@
 adb.exe wait-for-device
 adb.exe remount
 adb.exe shell busybox mount -o rw,remount /system
+adb.exe shell du -h /system/app
 adb.exe shell rm /system/app/AdobeReader.apk
 adb.exe shell rm /system/app/Aluminum.apk
 adb.exe shell rm /system/app/appdirectedsmspermission.apk
@@ -275,4 +276,5 @@ adb.exe push stock_apks/CalendarProvider.apk /system/app/
 adb.exe push stock_apks/DeskClock.apk /system/app/
 adb.exe push stock_apks/Email.apk /system/app/
 adb.exe push stock_apks/GoogleCalendarSyncAdapter.apk /system/app/
+adb.exe shell du -h /system/app
 adb.exe reboot

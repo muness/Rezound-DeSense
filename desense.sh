@@ -36,6 +36,8 @@ reboot() {
 
 wait_for_adb
 remount
+$ADB shell du -h /system/app
 remove_sense_apks
 install_aosp_apks
+$ADB shell du -h /system/app
 reboot
